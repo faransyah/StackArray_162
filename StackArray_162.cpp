@@ -8,7 +8,7 @@ private:
     int stack_Array[5];
     int top;
 public:
-
+    
 };
 
 
