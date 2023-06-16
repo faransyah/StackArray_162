@@ -76,9 +76,20 @@ in main() {
             break;
         }
         case '2':
-            if (s.empty())
-        }
-        
-
+            if (s.empty()) {
+                cout << "\nStack is empty." << endl;
+                break;
+            }
+            s.pop();
+            break;
+        case'3':
+            s.display();
+            break;
+        case'4':
+            return0;
+        default:
+            cout << "\nInvalid choice" << endl;
+            break;
+        }  
     }
 }
