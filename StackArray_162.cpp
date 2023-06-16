@@ -17,16 +17,17 @@ public:
     void push() {
         cout << "\nEnter an element: ";
         int element;
-        cin >> element;
-        
-        
+        cin >> element; 
+
+        if (top == 4) {//step 1
+            cout << "Number of data exceeds the limit." << endl;
+            return;
+        }
 
         top++;
         stack_Array[top] = element; //step3
         cout << endl;
         cout << element << "Ditambahkan(pushed)" << endl;
-
-        return element;
 
     }
 
