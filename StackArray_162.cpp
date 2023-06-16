@@ -69,6 +69,16 @@ in main() {
         cout << "3. Display";
         cout << "4. Exit";
         cout << "\nEnter your choice: ";
+        cin >> ch;
+        switch (ch) {
+        case '1': {
+            s.push();
+            break;
+        }
+        case '2':
+            if (s.empty())
+        }
+        
 
     }
 }
