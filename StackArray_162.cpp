@@ -54,3 +54,7 @@ public:
         }
     }
 };
+
+in main() {
+    stackArray
+}
