@@ -25,7 +25,7 @@ public:
         cout << element << "Ditambahkan(pushed)" << endl;
 
         return element;
-   
+
     }
 
     void pop() {
@@ -48,3 +48,9 @@ public:
             cout << "\nStack is empty." << endl;
         }
         else {
+            for (int tmp = top; tmp >= 0; tmp--) {
+                cout << stack_Array[tmp] << endl;
+            }
+        }
+    }
+};
